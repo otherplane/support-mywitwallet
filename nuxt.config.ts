@@ -1,8 +1,9 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  ssr: false,
+  ssr: true,
+  spaLoadingTemplate: false,
   app: {
-    baseURL: '/',
+    baseURL: '/support-mywitwallet/',
     head: {
       title: 'myWitWallet Support',
       meta: [
